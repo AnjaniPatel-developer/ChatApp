@@ -1,0 +1,35 @@
+.mid-section{
+    height: 475px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.first{
+    height: 90%;
+    overflow: auto;
+}
+
+.first::-webkit-scrollbar {
+    display: none;
+} 
+
+
+
+.second{
+    height:8%;
+}
+.alert{
+    width: 60%;
+    clear: both;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.center{
+ margin: auto;
+ text-align: center;
+}
+ 
